@@ -1,0 +1,17 @@
+.Dashboard{
+    margin-top: 3%;
+}
+.border-align{
+    border: 1px solid black;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    background-color: #8b98ad;
+    position: inherit;
+    color: #ffffff;
+    /* top: 50%; */
+}
