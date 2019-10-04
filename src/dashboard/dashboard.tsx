@@ -1,5 +1,6 @@
 import React from 'react';
 import './dashboard.css';
+import { Link } from 'react-router-dom';
 
 const Dashboard: React.FC = () => {
     return (
@@ -71,11 +72,12 @@ const Dashboard: React.FC = () => {
 
                 {/* Button */}
                 <div className="wrapper">
-                    <button type="button" className="btn button">Submit Button</button>
+                    <Link type="button" to="/vehicalDetails" className="btn button">Submit Button</Link>
                 </div>
 
             </div>
         </div>
+
     );
 }
 
