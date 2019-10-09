@@ -1,16 +1,25 @@
 import React from 'react';
 import './App.css';
-import Dashboard from './dashboard/dashboard';
+import Header from './header/Header'
+import Footer from './footer/footer'
+import LandingPage from './landingPage/landingPage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import VehicalDetails from './vehicalDetails/vehicalDetails';
+import VehicleDetails from './vehicleDetails/vehicleDetails';
+import Coverages from './coverages/coverages';
+import PaymentsPage from './payments/payments';
+import Welcome from './welcome/welcome';
 
 const App: React.FC = () => {
   return (
     <Router>
-    <Route exact path="/" component={Dashboard} />
-    <Route exact path="/vehicalDetails" component={VehicalDetails} />
-  </Router>
-
+      <Header />
+      <Route exact path="/" component={LandingPage} />
+      <Route exact path="/vehicleDetails" component={VehicleDetails} />
+      <Route exact path="/coverages" component={Coverages} />
+      <Route exact path="/payments" component={PaymentsPage} />
+      <Route exact path="/welcome" component={Welcome} />
+      <Footer />
+    </Router>
   );
 }
 

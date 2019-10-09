@@ -1,0 +1,38 @@
+.coverageDetails{
+    margin-top:3%;
+    background: linear-gradient(to bottom right, #1cb1c4 0%, #f8f850 100%);
+}
+.coveragesColor{
+    color:#9A254A
+}
+.nulldisplay{
+    display: none !important;
+}
+
+.navbarBackground{
+    background-color: #F9F8F4;
+    height: 194px;
+}
+.item-border{
+    border: 1px solid lightgray;
+    height: 155px;
+    max-width: 20%;
+    margin-top: 17px;
+}
+.navbarRow{
+    margin-left:15%
+}
+
+.badgeImg{
+    width: 30%;
+    height: auto;
+    margin: inherit;
+    margin-left: 32%;
+}
+.navHeadingtxt{
+    text-align: center;
+    margin-top: 5px;
+}
+.navContenttxt{
+    text-align: center;
+}

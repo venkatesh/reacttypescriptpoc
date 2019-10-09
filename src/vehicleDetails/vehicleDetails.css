@@ -1,0 +1,15 @@
+.VehicleDetails{
+    margin-top:3%;
+    background: linear-gradient(to bottom right, #1cb1c4 0%, #f8f850 100%);
+}
+.paraAlign{
+    width:47%;
+}
+.padding-align{
+    padding-left:0px !important;
+}
+.button1{
+    background-color:white ;
+    position: inherit;
+    color: #000000;
+ }

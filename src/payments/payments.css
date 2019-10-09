@@ -1,0 +1,15 @@
+.paymentDetails{
+    margin-top:3%;
+    background: linear-gradient(to bottom right, #1cb1c4 0%, #f8f850 100%);
+}
+.containerAlign{
+    margin: auto;
+    width: 50%;
+}
+.headingDetails{
+    margin-top: 30px;
+}
+
+.selectAlign{
+    margin-left: 5%;
+}
